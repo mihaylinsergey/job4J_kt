@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d336ce9-6bdb-453f-972a-cde582f27b39" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8d336ce9-6bdb-453f-972a-cde582f27b39" name="Changes" comment="1. Первая программа. [#188590 #463447]">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,7 @@
       <recent name="C:\projects\job4J_kt\src\main\kotlin\ru\job4j\base" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HelloWorld">
+  <component name="RunManager" selected="Gradle.job4J_kt [build]">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.job4j.base.HelloWorld" />
       <module name="job4J_kt.main" />
@@ -97,6 +97,27 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="job4J_kt [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="HelloWorldKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.job4j.base.HelloWorldKt" />
@@ -114,8 +135,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Gradle.job4J_kt [build]" />
         <item itemvalue="Kotlin.HelloWorldKt" />
+        <item itemvalue="Application.HelloWorld" />
         <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
@@ -128,8 +150,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701331943138</updated>
-      <workItem from="1701331945600" duration="2163000" />
+      <workItem from="1701331945600" duration="3295000" />
     </task>
+    <task id="LOCAL-00001" summary="1. Первая программа. [#188590 #463447]">
+      <created>1701334842949</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701334842949</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,5 +175,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1. Первая программа. [#188590 #463447]" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Первая программа. [#188590 #463447]" />
   </component>
 </project>
