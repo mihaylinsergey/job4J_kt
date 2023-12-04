@@ -14,4 +14,9 @@ class IfTest {
     fun whenCompare1And2And2And3Then3() {
         assertThat(max(1, 2, 3)).isEqualTo(3)
     }
+
+    @Test
+    fun whenCompare1And2And2And3And4Then4() {
+        assertThat(max(1, 2, 3, 4)).isEqualTo(4)
+    }
 }
