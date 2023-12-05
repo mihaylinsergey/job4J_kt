@@ -21,10 +21,10 @@ class Tracker {
     }
 
     fun  findByName(key : String) : List<Item> {
-        var result : MutableList<Item> = ArrayList()
+        val result : MutableList<Item> = ArrayList()
         for (item in items) {
             if (item.name == key) {
-                result.add(item);
+                result.add(item)
             }
         }
         return result
