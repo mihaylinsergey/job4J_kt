@@ -6,7 +6,7 @@ class Tracker {
     private var ids : Int = 1
 
     fun add(item : Item) : Item {
-        item.setId(ids++)
+        item.id = ids++
         items.add(item)
         return item
     }
@@ -23,7 +23,7 @@ class Tracker {
     fun  findByName(key : String) : List<Item> {
         var result : MutableList<Item> = ArrayList()
         for (item in items) {
-            if (item.getName() == key) {
+            if (item.name == key) {
                 result.add(item);
             }
         }
@@ -34,7 +34,7 @@ class Tracker {
         var rsl = -1
         var index = 0
         while (index < items.size) {
-            if (items[index].getId() == id) {
+            if (items[index].id == id) {
                 rsl = index
                 break
             }
@@ -47,7 +47,7 @@ class Tracker {
         val index = indexOf(id)
         val rsl = index != -1
         if (rsl) {
-            item.setId(id)
+            item.id = id
             items[index] = item
         }
         return rsl
